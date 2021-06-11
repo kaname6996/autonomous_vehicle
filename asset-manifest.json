@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/autonomous_vehicle/static/css/main.6845c973.chunk.css",
+    "main.js": "/autonomous_vehicle/static/js/main.9fcb47b2.chunk.js",
+    "main.js.map": "/autonomous_vehicle/static/js/main.9fcb47b2.chunk.js.map",
+    "runtime-main.js": "/autonomous_vehicle/static/js/runtime-main.95bf5922.js",
+    "runtime-main.js.map": "/autonomous_vehicle/static/js/runtime-main.95bf5922.js.map",
+    "static/js/2.8a73a99b.chunk.js": "/autonomous_vehicle/static/js/2.8a73a99b.chunk.js",
+    "static/js/2.8a73a99b.chunk.js.map": "/autonomous_vehicle/static/js/2.8a73a99b.chunk.js.map",
+    "index.html": "/autonomous_vehicle/index.html",
+    "static/css/main.6845c973.chunk.css.map": "/autonomous_vehicle/static/css/main.6845c973.chunk.css.map",
+    "static/js/2.8a73a99b.chunk.js.LICENSE.txt": "/autonomous_vehicle/static/js/2.8a73a99b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95bf5922.js",
+    "static/js/2.8a73a99b.chunk.js",
+    "static/css/main.6845c973.chunk.css",
+    "static/js/main.9fcb47b2.chunk.js"
+  ]
+}
