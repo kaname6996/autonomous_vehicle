@@ -1,0 +1,9 @@
+.economic{
+    width: 80%;
+    margin: auto;
+}
+.economic .economicbox{
+    height: 70vh;
+    overflow-y:scroll;
+}
+.economic .economicbox::-webkit-scrollbar {display:none}

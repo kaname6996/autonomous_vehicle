@@ -1,0 +1,8 @@
+.level{
+    width: 70%;
+    margin: auto;
+}
+.level .bigger::first-letter{
+    font-size: 300%;
+    color: #112d4e;
+}

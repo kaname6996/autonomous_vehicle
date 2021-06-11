@@ -1,0 +1,167 @@
+@media screen and (max-width:576px) {
+    .home p{
+        display: none;
+    }
+    .timeline li{
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .timeline li::after{
+        display: none;
+    }
+    .homeout{
+        position: fixed;
+        top:0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width:576px) {
+    .timeline li{
+        width: 50%;
+        padding: 40px 0;
+    }
+    .timeline li:nth-child(even){
+        /* 上下錯開 */
+        transform: translateY(50%);
+    }
+    .homeout{
+        position: absolute;
+        width: 60vw;
+        top:10%;
+    }
+    
+}
+
+.home>ul{
+    list-style: none;
+    padding-left: 0;
+    width: 90%;
+    margin: auto;
+}
+.timeline li{
+    /* width: 50%; */
+    box-sizing: border-box;
+    /* padding: 40px 0; */
+    position: relative;
+}
+
+/* 中間那條線 */
+.timeline li:nth-child(odd)::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 150%;
+    background-color: #dbe2ef;
+    top:0;
+    right: 0;
+    z-index: -1;
+
+}
+/* 最後一個li的時候線高短 */
+.timeline li:last-child::after{
+    height: 50%;
+}
+
+/* 小點點 */
+.timeline li::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#112d4e ;
+    z-index: 5;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.timeline li:nth-child(odd)::before {
+    right: -9px;
+}
+
+.timeline li:nth-child(even)::before {
+    left: -11px;
+}
+/* 小點點旁邊的橫線 */
+.timeline h4::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background-color:#112d4e ;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.timeline li:nth-child(odd) h4::before{
+    right: 0;
+}
+.timeline li:nth-child(even) h4::before{
+    left: 0;
+}
+
+
+.timeline li div{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(204, 204, 204);
+    background-color: #dbe2ef;
+}
+.timeline li div:hover{
+    background-color: #112d4e;
+    color:#f9f7f7 ;
+    cursor: pointer;
+}
+.timeline h4{
+    font-weight: 600;
+}
+.timeline p{
+    font-weight: 100;
+}
+
+/* 單數行 */
+.timeline li:nth-child(odd){
+    float: left;
+    padding-right: 100px;
+}
+/* 偶數行 */
+.timeline li:nth-child(even){
+    float: right;
+    padding-left: 100px;
+    /* 上下錯開 */
+    /* transform: translateY(50%); */
+}
+
+
+
+/* 點一下出來的東西 */
+
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.homeout{
+    /* position: absolute; */
+    /* width: 60vw; */
+    /* top:10%; */
+    z-index: 10;
+}
+.homeout .homeoutClose{
+    text-align: right;
+    font-size: x-large;
+}
+.homeout img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.homeoutx{
+    display: none;
+}

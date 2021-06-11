@@ -1,0 +1,19 @@
+@media screen and (min-width:992px) {
+    .tod img {
+        width: 50%;
+    }
+}
+
+
+.tod .txt{
+    background-color: #dbe2ef;
+    border-radius: 10px;
+}
+
+.tod h4{
+    font-weight: 700;
+}
+
+.tod h6 {
+    text-align: center;
+}

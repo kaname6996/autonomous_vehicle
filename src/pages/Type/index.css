@@ -1,0 +1,12 @@
+.type h5{
+    text-align: center;
+    font-weight: 700;
+}
+.type img{
+    border-radius: 10px;
+}
+.type .bcenter{
+    text-align: center;
+    display:block;
+    font-size: large;
+}
